@@ -26,10 +26,12 @@ public class UCRClassificationTest {
     // The datasets to use
     public static String[] datasets = new String[]{
             "Coffee",
-            // "2_classes_WIFI_len_796",
-            // "2_classes_WIFI_len_1596",
             // "NonInvasiveFatalECG_Thorax2",
             // "2_classes_WIFI_small",
+            "2_classes_WIFI_len_796",
+            "2_classes_WIFI_len_1596",
+            "2_classes_WIFI_len_3996",
+            "2_classes_WIFI_len_7996",
             "2_classes_WIFI",
             "3_classes_WIFI",
             "4_classes_WIFI",
