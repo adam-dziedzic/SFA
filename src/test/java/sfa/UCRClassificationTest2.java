@@ -23,6 +23,9 @@ public class UCRClassificationTest2 {
     /**
      * $ export _JAVA_OPTIONS="-Xms20000m -Xmx40000m"
      * $ gradle test --tests sfa.UCRClassificationTest
+     *
+     * export _JAVA_OPTIONS="-Xms40000m -Xmx80000m"
+     * gradle test --tests sfa.UCRClassificationTest2
      */
 
     // The datasets to use
@@ -39,11 +42,11 @@ public class UCRClassificationTest2 {
 //            "4_classes_WIFI",
 //            "5_classes_WIFI",
 //            "6_classes_WIFI",
-            "NLOS_10/2_classes_WIFI",
-            "NLOS_10/3_classes_WIFI",
-            "NLOS_10/4_classes_WIFI",
-            "NLOS_10/5_classes_WIFI",
-            "NLOS_10/6_classes_WIFI",
+            "NLOS-10/2_classes_WIFI",
+            "NLOS-10/3_classes_WIFI",
+            "NLOS-10/4_classes_WIFI",
+            "NLOS-10/5_classes_WIFI",
+            "NLOS-10/6_classes_WIFI",
 //          "Beef", "CBF",
 //          "ECG200",
 //          "FaceFour", "OliveOil",
