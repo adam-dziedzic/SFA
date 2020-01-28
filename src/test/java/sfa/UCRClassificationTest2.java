@@ -133,6 +133,7 @@ public class UCRClassificationTest2 {
                         Instant end = Instant.now();
                         long timeElapsed = Duration.between(begin, end).getSeconds();
                         System.out.println(s + ";" + scoreBOSSVS.toString() + ";" + timeElapsed);
+                        System.out.flush();
 
 //                        // The BOSS ensemble classifier
 //                        Classifier boss = new BOSSEnsembleClassifier();
