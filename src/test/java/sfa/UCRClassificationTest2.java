@@ -84,6 +84,7 @@ public class UCRClassificationTest2 {
         //File dir = new File("/Users/bzcschae/workspace/similarity/datasets/classification");
 
         for (String s : datasets) {
+            System.out.println("dataset: " + s);
             Instant start = Instant.now();
             File d = new File(dir.getAbsolutePath() + "/" + s);
             if (d.exists() && d.isDirectory()) {
