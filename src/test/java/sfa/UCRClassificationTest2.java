@@ -31,11 +31,11 @@ public class UCRClassificationTest2 {
     // The datasets to use
     public static String[] datasets = new String[]{
             "Coffee",
-            "NLOS-6/6_classes_WIFI",
             "NLOS-6/2_classes_WIFI",
             "NLOS-6/3_classes_WIFI",
             "NLOS-6/4_classes_WIFI",
             "NLOS-6/5_classes_WIFI",
+            "NLOS-6/6_classes_WIFI",
 //            "2_classes_WIFI_len_796",
 //            "2_classes_WIFI_len_1596",
 //            "2_classes_WIFI_len_3996",
